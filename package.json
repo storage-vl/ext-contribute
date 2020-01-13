@@ -1,0 +1,29 @@
+{
+  "name": "ext-contribute",
+  "version": "0.3.3",
+  "author": "Armin Sebastian",
+  "repository": "https://github.com/dessant/ext-contribute",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "update": "ncu --upgrade && yarn",
+    "push": "git push --follow-tags origin master",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "ext-components": "github:dessant/ext-components",
+    "@material/theme": "^4.0.0",
+    "@material/typography": "^4.0.0",
+    "webextension-polyfill": "^0.5.0"
+  },
+  "peerDependencies": {
+    "typeface-roboto": "^0.0.75",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^3.2.2",
+    "prettier": "^1.19.1",
+    "standard-version": "^7.0.1"
+  },
+  "private": true
+}
