@@ -1030,9 +1030,10 @@ execa@^0.7.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-ext-components@dessant/ext-components#^0.4.0:
-  version "0.4.0"
-  resolved "https://codeload.github.com/dessant/ext-components/tar.gz/0ce5da440650152e7f867cae56da41745deec1b6"
+"ext-components@github:dessant/ext-components":
+  version "0.6.0"
+  uid "8858271554f72821865615b0daf0b6d15f8f4f03"
+  resolved "https://codeload.github.com/dessant/ext-components/tar.gz/8858271554f72821865615b0daf0b6d15f8f4f03"
   dependencies:
     "@material/button" "^4.0.0"
     "@material/checkbox" "^4.0.0"
@@ -1046,6 +1047,7 @@ ext-components@dessant/ext-components#^0.4.0:
     "@material/select" "^4.0.0"
     "@material/switch" "^4.0.0"
     "@material/textfield" "^4.0.0"
+    mitt "^3.0.0"
 
 fast-diff@^1.2.0:
   version "1.2.0"
@@ -1537,11 +1539,9 @@ json-stringify-safe@^5.0.1:
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
 json5@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.1.tgz#81b6cb04e9ba496f1c7005d07b4368a2638f90b6"
-  integrity sha512-l+3HXD0GEI3huGq1njuqtzYK8OYJyXMkOLtQ53pjWh89tvWS2h6l+1zMkYWqlb57+SiQodKZyvMEFb2X+KrFhQ==
-  dependencies:
-    minimist "^1.2.0"
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
+  integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
 jsonparse@^1.2.0:
   version "1.3.1"
@@ -1828,6 +1828,11 @@ mississippi@^3.0.0:
     pumpify "^1.3.3"
     stream-each "^1.1.0"
     through2 "^2.0.0"
+
+mitt@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.0.tgz#69ef9bd5c80ff6f57473e8d89326d01c414be0bd"
+  integrity sha512-7dX2/10ITVyqh4aOSVI9gdape+t9l2/8QxHrFmUXu4EEUpdlxl6RudZUPZoc+zuY2hk1j7XxVroIVIan/pD/SQ==
 
 mkdirp@^0.5.0, mkdirp@^0.5.1:
   version "0.5.1"
